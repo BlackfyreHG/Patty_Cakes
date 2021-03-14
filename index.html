@@ -2,30 +2,60 @@
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="css.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/main_css.css" />
         <title>Patty Cakes</title>
     </head>
     <body>
         <!-- <div id="lpad"></div>
         <div id="rpad"></div>-->
         <div id="title">
+            <img onclick="UnHideMenu()" id="LinesIcon" src="images/MenuButton.png">
+            <script>
+            function UnHideMenu()
+                {
+                    var x =document.getElementById("links");
+                    if(x.style.display === "none")
+                        {
+                            x.style.display = "block";
+                        }
+                    else
+                    {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
             <t1>Patty Cakes</t1>
-        </div>
-        <div id="desert"> 
-            <P>Yummy Desert Pick</P>
+            
         </div>
         
         <div id="links">
-            <li> 
-                <a href="menu.html">Menu</a>
-            </li>
-            <li>
-                <a href="bio.html">Meet the Baker</a>
-            </li>
-            <li>
-                <a href="">Contact</a>
-            </li>
+            <a id="MenuLink" href="menu.html">Menu</a>
+             <a id="BioLink" href="bio.html">Meet the Baker</a>
+            <a id="ContactLink" href="">Contact</a>
         </div>
+        
+        <a href="cakeMenu.html">
+            <div id="cakeMenu"> 
+                <P>Cake Menu</P>
+                <img src="images/cake.jfif">
+            </div>
+        </a>
+        
+        <a href="cupcakeMenu.html">
+            <div id="cupcakeMenu"> 
+                <P>Cupcake Menu</P>
+                <img src="images/cupCake.jfif">
+            </div>
+        </a>
+            
+        <a href="cookieMenu.html">
+            <div id="cookieMenu"> 
+                <P>Cookie Menu</P>
+                <img src="images/cookies.jpg">
+            </div>
+        </a>
+        
+        
     
     </body>
     

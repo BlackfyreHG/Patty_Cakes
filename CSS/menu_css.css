@@ -10,19 +10,9 @@ body {
     clear: both;
     position:relative;
     float:none;
+    font-size:
 }
-#desert{
-    background-color:#E6E6FA;
-    width: 40%;
-    height: 300px;
-    border:double;
-    border-color:black;
-    position:relative;
-    padding:5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    
-}
+
 
 #links {
     background-color:greenyellow;
@@ -37,6 +27,14 @@ body {
     align-content: center;
     
    
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    padding: 5%;
+    border:outset;
+    border-color:blue;
 }
 
 a {

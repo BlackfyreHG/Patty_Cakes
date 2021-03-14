@@ -1,0 +1,123 @@
+body {
+    text-align: center; 
+    background-color:lightpink;
+}
+#title{
+    
+    width:100%;
+    height:40pt;
+    background-color: #7ddbb6;
+    border:15px solid #315748;
+    clear: both;
+    position:relative;
+    float:none;
+    font-size: 30pt;
+    
+}
+
+   
+
+#cakeMenu{
+    background-color:#E6E6FA;
+    width: 40%;
+   height: auto;
+    border:20px outset #60ab8d;
+    position:relative;
+    padding:5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+#cupcakeMenu{
+    background-color:#E6E6FA;
+    width: 40%;
+    height: auto;
+    border:20px outset #60ab8d;
+    position:relative;
+    padding:5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom:5%;
+}
+#cookieMenu{
+    background-color:#E6E6FA;
+    width: 40%;
+    height: auto;
+    border:20px outset #60ab8d;
+    position:relative;
+    padding:5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+#links {
+    background-color:#72d6b6;
+    width: 100%;
+    height:50pt;
+    position:relative; 
+    padding-top:5%;
+        font-size:15pt;
+}
+
+#MenuLink
+{
+    
+    float:left;
+    margin-left:25%;
+
+}
+
+#BioLink
+{
+    float:left;
+    margin-left:15%;
+}
+
+#ContactLink
+{
+    float:left;
+    margin-left:15%;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    padding: 5%;
+
+}
+
+#LinesIcon
+{
+    height:20pt;
+    width:20pt;
+    float:left;
+    padding-top:2%;
+    padding-left:2%;
+    border:none;
+}
+
+a {
+    color: black; 
+    font-size: 20pt;
+    
+}
+li {
+    text-align:center;
+}
+
+#cakeMenu:hover, #cupcakeMenu:hover, #cookieMenu:hover
+{
+    transition:0.1s;
+    transform:translateY(-1rem) scale(1.1);
+}
+
+
+
+
+
+
+
+
+
