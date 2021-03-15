@@ -1,40 +1,54 @@
 body {
     text-align: center; 
     background-color:lightpink;
+    font-family:fantasy;
 }
-#title{
+#Title
+{
     
-    width:100%;
-    height:30px;
-    border:double;
-    clear: both;
-    position:relative;
-    float:none;
-    font-size:
-}
-
-
-#links {
-    background-color:greenyellow;
-    width: 40%;
-    height: 200px;
-    position:relative;
-    float:none;
-    padding:5%;
-    margin-right:25%;
-    margin-left:25%;
-    clear: both;
-    align-content: center;
-    
+    font-size:50pt;  
+    margin-top:0%;
+    padding-top:0%
    
 }
 
-img{
-    width: 80%;
-    height: 80%;
-    padding: 5%;
-    border:outset;
-    border-color:blue;
+#back
+{
+    float: left;
+    text-decoration: none;
+    
+}
+
+#menuItems
+{
+    background-color:antiquewhite;
+    display:inline-block;
+    width:70%;
+    height:140pt;
+    box-shadow: 10px 10px 10px black;
+    margin-top:5%;
+}
+
+#smallImage
+{
+    width:100pt;
+    height:100pt;
+    float:left;
+    padding:5%;
+}
+
+#Name
+{
+    float: left;
+    padding:4%;
+    padding-top:10%;
+}
+
+#price
+{
+    float:right;;
+    padding:5%;
+    padding-top:10%;
 }
 
 a {
